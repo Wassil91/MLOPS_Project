@@ -39,7 +39,7 @@ Mettez en place les variables d'environnement requises dans config/airflow.env.
 Exécutez docker-compose up -d pour démarrer les conteneurs.
 
 ## Utilisation
-Une fois les conteneurs démarrés, accédez à l'interface Airflow via votre navigateur Web à l'adresse http://localhost:8080. Vous pouvez utiliser les DAGs fournis pour exécuter les différentes étapes du pipeline MLops.
+Une fois les conteneurs démarrés, accédez à l'interface web Airflow via votre navigateur Web à l'adresse http://localhost:8080 (à la place de localhost utilisez votre adresse IP de votre VM Azure). Accédez également à l'interface web de mlflow à l'adresse http://localhost:5001 (à la place de localhost utilisez votre adresse IP de votre VM Azure). Veillez également à mettre les bons ports. Vous pouvez utiliser les DAGs fournis pour exécuter les différentes étapes du pipeline MLops qui seront visibles sur l'interface de Airflow.
 
 ## Organisation et création de la VM Azure
 Pour créer et organiser une VM Azure pour ce projet, suivez les étapes suivantes :
@@ -97,6 +97,12 @@ Une fois la validation réussie, cliquez sur "Créer" pour déployer le serveur 
 
 Une fois le déploiement terminé, accédez au serveur PostgreSQL via l'adresse et les informations d'identification fournies lors de la configuration.
 Vous pouvez utiliser des outils tels que pgAdmin ou psql pour vous connecter à votre serveur et commencer à gérer vos bases de données.
+
+## Démonstration des étapes du projet 
+
+### 
+![Capture d'écran Ynov](https://cdn.discordapp.com/attachments/1240357804846616749/1240357826086305932/lo_ynov.png?ex=664644be&is=6644f33e&hm=fe9026035526f1d558cd6ba02c0ffd658771d73bf1e4f3bbc57ec9fefa4e2b19&)
+
 
 ## Problème et bugs
 
