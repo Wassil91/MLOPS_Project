@@ -146,7 +146,7 @@ Vous pouvez utiliser des outils tels que pgAdmin ou psql pour vous connecter à 
 
 ### Vérification interface web Airflow :
 
-![UAAirflow](https://media.discordapp.net/attachments/1240357804846616749/1240371642321080522/image.png?ex=6646519c&is=6645001c&hm=a9a4b63418b8cabb1f0ff3e7fae8761655ddeb518cedbca44d3780babc22bc08&=&format=webp&quality=lossless&width=1313&height=662)
+![UAAirflow](https://media.discordapp.net/attachments/1240357804846616749/1240395058562203668/image.png?ex=6646676b&is=664515eb&hm=d9d0165d57fc9cb317da4991ab8973c1bfbb9d97af975b1da07374c2f2e7696e&=&format=webp&quality=lossless&width=687&height=351)
 
 ### Liste des variables dans Airflow :
 
