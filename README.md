@@ -4,10 +4,10 @@ Ce projet vise à mettre en œuvre un pipeline MLops complet utilisant Apache Ai
 ## Structure du projet
 Le projet est organisé comme suit :
 
-dags/ : Contient les DAGs Airflow pour l'extraction, la transformation, l'entraînement et le déploiement des modèles.
-config/ : Contient les fichiers de configuration pour Airflow.
-logs/ : Répertoire pour les logs Airflow.
-plugins/ : Plugins Airflow personnalisés.
+- dags/ : Contient les DAGs Airflow pour l'extraction, la transformation, l'entraînement et le déploiement des modèles.
+- config/ : Contient les fichiers de configuration pour Airflow.
+- logs/ : Répertoire pour les logs Airflow.
+- plugins/ : Plugins Airflow personnalisés.
 requirements.txt : Fichier de dépendances Python.
 Makefile : Makefile pour l'installation et le formatage du code.
 docker-compose.yml : Configuration Docker Compose pour Airflow, MLflow et PostgreSQL.
