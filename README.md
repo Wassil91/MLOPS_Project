@@ -8,11 +8,11 @@ Le projet est organisé comme suit :
 - config/ : Contient les fichiers de configuration pour Airflow.
 - logs/ : Répertoire pour les logs Airflow.
 - plugins/ : Plugins Airflow personnalisés.
-requirements.txt : Fichier de dépendances Python.
-Makefile : Makefile pour l'installation et le formatage du code.
-docker-compose.yml : Configuration Docker Compose pour Airflow, MLflow et PostgreSQL.
-Dockerfile.airflow : Dockerfile pour l'image Airflow.
-Dockerfile.mlflow : Dockerfile pour l'image MLflow.
+- requirements.txt : Fichier de dépendances Python.
+- Makefile : Makefile pour l'installation et le formatage du code.
+- docker-compose.yml : Configuration Docker Compose pour Airflow, MLflow et PostgreSQL.
+- Dockerfile.airflow : Dockerfile pour l'image Airflow.
+- Dockerfile.mlflow : Dockerfile pour l'image MLflow.
 
 ## Arborescence du projet sur la VM
 
