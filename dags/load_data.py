@@ -13,7 +13,7 @@ DATA_PATH = os.path.dirname(os.path.abspath(__file__))
 
 def check_environment_setup():
     # Vérifier que tous les fichiers sont disponibles et les variables d'environnement bien déclarées
-    required_files = ["load_data.py" ,  "model_training_promotion.py",  "transform_data.py"]  # Liste des fichiers requis
+    required_files = ["load_data.py" ,  "model_trainning.py",  "transform_data.py"]  # Liste des fichiers requis
     missing_files = [file for file in required_files if not os.path.exists(os.path.join(DATA_PATH, file))]
 
     if missing_files:
